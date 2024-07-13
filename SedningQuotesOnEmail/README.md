@@ -28,7 +28,7 @@ To set up the project locally:
 1. Clone this repository.
 2. Ensure Python 3.x is installed on your system.
 3. Configure the email credentials and recipient information in `app.py`.
-4. Run `main.py` to start the email automation process.
+4. Run `app.py` to start the email automation process.
 
 ## Usage
 
