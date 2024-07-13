@@ -16,8 +16,9 @@ Special thanks to my mentor, Muzamil Bilwani, for teaching us valuable skills an
 
 ## Project Structure
 
-- **main.py**: Python script for generating and sending emails with motivational quotes.
-- **quotes.txt**: Text file containing a collection of motivational quotes.
+- **app.py**: Python script for generating and sending emails with motivational quotes.
+- **quotes.csv**: Csv file containing a collection of motivational quotes.
+- **information.csv**: Csv file containing a collection of emails and name of banoqabil students.
 - **README.md**: This file, providing an overview of the project.
 
 ## Getting Started
@@ -26,13 +27,13 @@ To set up the project locally:
 
 1. Clone this repository.
 2. Ensure Python 3.x is installed on your system.
-3. Install necessary dependencies using `pip install -r requirements.txt`.
-4. Configure the email credentials and recipient information in `main.py`.
-5. Run `main.py` to start the email automation process.
+3. Configure the email credentials and recipient information in `app.py`.
+4. Run `main.py` to start the email automation process.
 
 ## Usage
 
-- Modify `quotes.txt` to add or change the pool of motivational quotes.
+- Modify `quotes.csv` to add or change the pool of motivational quotes.
+- Modify `info.csv` to add or change the pool of Name and Emails.
 - Adjust the scheduling logic in `main.py` if necessary.
 - Monitor the console output or log files for status and error messages.
 
