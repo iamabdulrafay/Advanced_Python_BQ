@@ -34,7 +34,7 @@ To set up the project locally:
 
 - Modify `quotes.csv` to add or change the pool of motivational quotes.
 - Modify `info.csv` to add or change the pool of Name and Emails.
-- Adjust the scheduling logic in `main.py` if necessary.
+- Adjust the scheduling logic in `app.py` if necessary.
 - Monitor the console output or log files for status and error messages.
 
 ## Contributing
