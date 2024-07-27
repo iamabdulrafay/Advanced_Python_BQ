@@ -16,11 +16,12 @@ Given a list of strings, use the `filter` function and a lambda function to crea
 ```python
 fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry']
 fruits_filter = list(filter(lambda x: len(x) > 5, fruits))
-print(fruits_filter)
+print(fruits_filter) #Expected Output: ['banana', 'cherry', 'elderberry']
+ 
 
 numbers = [2, 4, 6, 8, 10]
 
 from functools import reduce
 numbers_double = list(map(lambda x: x * 2, numbers))
 product_double = reduce(lambda x, y: x * y, numbers_double)
-print(product_double)
+print(product_double) #Expected Output: 122880
